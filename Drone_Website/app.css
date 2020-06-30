@@ -24,7 +24,7 @@ body
   margin: 30px auto 0;
   /* padding is the spacing within the box/ button */
   padding: 20px 45px;
-  background-color: teal;
+  background-color: skyblue;
   font-size: 22px;
   text-align: center;
   border: 1px solid;
@@ -32,6 +32,7 @@ body
   outline: none;
   text-decoration: none;
   text-underline-position: below;
+  border-radius: 30px;
 
 }
 
