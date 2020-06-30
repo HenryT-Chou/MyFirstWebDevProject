@@ -3,8 +3,9 @@ h1
 {
   color: whitesmoke; /* this is the change that we are going to make */
   text-transform: uppercase;
-  border-top: slateblue;
+  border-top: black;
   border-bottom-color: black;
+  border-top: olive;
 }
 
 body
@@ -17,7 +18,7 @@ body
 }
 
 /* changes here will only affect the "real button" */
-#real_button
+button
 {
   /* margin is the spacing of the button between other elements */
   margin: 30px auto 0;
@@ -42,7 +43,13 @@ button:hover
   letter-spacing: 2px;
 }
 
-#fake_button
+/* #fake_button
+{
+  margin: 15px auto 0;
+  text-decoration: none;
+  padding: 20px 20px;
+  font-size: 22px;
+} */
 
 img
 {
